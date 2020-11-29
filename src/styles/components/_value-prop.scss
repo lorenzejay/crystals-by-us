@@ -1,17 +1,25 @@
 .value-prop {
   width: 100%;
-
   .value-main-image {
-    height: 570px;
+    height: 100vh;
+    width: 100%;
     background-size: cover;
-    h2 {
-      height: 100%;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    .value-main-image-content {
+      padding: 0 5%;
       display: flex;
-      align-items: center;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-start;
       justify-content: center;
-      color: #ffffff;
-      text-transform: uppercase;
-      font-size: 1.9rem;
+
+      h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        text-shadow: #ffffff 0px 0px 2px;
+      }
     }
   }
 }
@@ -23,61 +31,3 @@
   // margin-bottom: 2em;
   // max-width: $maxContainerWidth;
 }
-
-// .main-message {
-//   grid-column: span 8;
-//   grid-row: span 5;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   text-align: center;
-//   p {
-//     margin-top: 0;
-//   }
-// }
-
-// .main-subtitle {
-//   font-size: 1.5rem;
-//   font-weight: 500;
-// }
-
-// .main-photo {
-//   grid-column: span 8;
-//   grid-row: span 3;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   background: url("../assets/main-photo.svg") no-repeat top;
-//   background-size: 100% 100%;
-//   height: 100%;
-//   padding: 0;
-//   width: 100%;
-//   max-width: 50rem;
-//   margin: 0 auto;
-// }
-
-// @include breakpoint("from-tablet-l") {
-//   // .value-prop-content {
-//   //   margin: 2rem auto 3rem auto;
-//   // }
-
-//   .main-message {
-//     grid-column: span 4;
-//     grid-row: span 8;
-//   }
-
-//   .main-photo {
-//     grid-column: span 4;
-//     grid-row: span 8;
-//   }
-
-//   .main-message {
-//     align-items: flex-start;
-//     text-align: left;
-//     button {
-//       margin: 0;
-//     }
-//   }
-// }

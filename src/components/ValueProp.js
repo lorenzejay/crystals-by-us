@@ -27,16 +27,13 @@ const ValueProp = props => {
           backgroundColor="#ffffff"
           className="value-main-image"
         >
-          <h2>Crystals</h2>
+          <div className="value-main-image-content">
+            <h1>Let us hand pick your crystal</h1>
+            <a href="https://www.instagram.com/crystalsbyus/">
+              <Button label="Learn More" />
+            </a>
+          </div>
         </BackgroundImage>
-        <div className="main-message">
-          <h1>Here is our amazing product</h1>
-          <p className="main-subtitle">
-            Please buy our amazing product. You&apos;re gonna love it. Promise.
-          </p>
-          <Button label="Get Started" />
-        </div>
-        <div className="main-photo"></div>
       </div>
     </section>
   )
