@@ -1,0 +1,15 @@
+.card {
+  width: 22vw;
+  height: 35vh;
+  margin: 15px 5px;
+  .card-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    h4,
+    p {
+      padding: 2%;
+      color: #333333;
+    }
+  }
+}

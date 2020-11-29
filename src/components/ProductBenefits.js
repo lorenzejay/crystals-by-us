@@ -45,6 +45,7 @@ const ProductBenefits = props => {
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">
+        <h1>Each Crysal a meaning</h1>
         <div className="product-benefits-row-1">
           <Img
             fluid={image1}
