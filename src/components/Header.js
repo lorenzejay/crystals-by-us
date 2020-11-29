@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
   return (
     <header>
       <Backdrop activeClass={backdropClass} click={toggle} />
-      <nav className="navbar">
+      <nav className="navbar transparent navbar-inverse">
         <div className="nav-belt">
           <div>
             <h4>

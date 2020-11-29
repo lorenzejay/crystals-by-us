@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./Header";
-import Footer from "./Footer";
-import '../styles/index.scss';
+import Header from "./Header"
+import Footer from "./Footer"
+import "../styles/index.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,10 +26,10 @@ const Layout = ({ children }) => {
       </div>
     </>
   )
-};
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout;
+export default Layout
