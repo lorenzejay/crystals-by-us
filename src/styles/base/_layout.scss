@@ -1,6 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 *,
@@ -12,6 +13,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   border: 0;
@@ -42,4 +44,5 @@ video {
 }
 
 @media only screen and (max-width: 40rem) {
+  overflow-x: hidden;
 }

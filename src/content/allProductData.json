@@ -1,0 +1,35 @@
+{
+  "title": "Our Products",
+  "content": [
+    {
+      "_id": 1,
+      "image": "../images/crystal1.jpg",
+      "name": "Green Flurite",
+      "price": 15
+    },
+    {
+      "_id": 2,
+      "image": "../images/crystal2.jpg",
+      "name": "Rose Quartz",
+      "price": 15
+    },
+    {
+      "_id": 3,
+      "image": "../images/crystal3.jpg",
+      "name": "Obsedian",
+      "price": 15
+    },
+    {
+      "_id": 4,
+      "image": "../images/crystal4.jpg",
+      "name": "Opal",
+      "price": 15
+    },
+    {
+      "_id": 5,
+      "image": "../images/crystal1.jpg",
+      "name": "Amethyst",
+      "price": 15
+    }
+  ]
+}

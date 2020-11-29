@@ -27,6 +27,23 @@
   }
 }
 
+@include breakpoint("phone") {
+  .product-benefits {
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: 5%;
+    .product-benefits-row-1 {
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+    }
+    .product-benefits-row-2 {
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
 // .product-benefit-1-tagline {
 //   grid-row: 1/2;
 //   grid-column: span 8;
