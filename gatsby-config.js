@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Landing`,
+    title: `Crystals By Us`,
     description: `Clean and modern landing page starter template for your next saas project launch.`,
     siteUrl: `https://www.gatsby-landing-page-starter.com`,
     author: `@btahir`,
@@ -30,6 +30,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`  
+    `gatsby-plugin-sitemap`,
   ],
 }
