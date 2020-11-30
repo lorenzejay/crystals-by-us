@@ -32,13 +32,10 @@ const Header = ({ siteTitle }) => {
           </div>
           <ul className={navClasses}>
             <li className={navItemClasses}>
-              <a href="#">About</a>
+              <a href="#products">Products</a>
             </li>
             <li className={navItemClasses}>
-              <a href="#">Our Crystals</a>
-            </li>
-            <li className={navItemClasses}>
-              <a href="#">Blog</a>
+              <a href="https://www.instagram.com/crystalsbyus/">Instagram</a>
             </li>
           </ul>
           <div className={burgerClass} onClick={toggle}>

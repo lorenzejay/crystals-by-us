@@ -47,13 +47,16 @@
   align-items: center;
   max-height: 50vh;
   margin: 0;
-  width: 40%;
+  width: 20%;
   a {
     text-decoration: none;
     letter-spacing: 0.1rem;
     font-size: 0.9rem;
     font-weight: 700;
     color: $navLabelsColor;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   li {
     list-style: none;
@@ -92,7 +95,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    // background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.75);
     z-index: -100;
     display: none;
     top: 0;
@@ -110,15 +113,19 @@
     top: 8vh;
     right: 0;
     height: 92vh;
+
     // background-color: $navColor;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 300ms ease-in;
     li {
       opacity: 0;
+      a {
+        font-size: 2rem;
+      }
     }
   }
 

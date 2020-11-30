@@ -28,7 +28,7 @@ const ProductFeatures = props => {
   const products = data.allContentJson.nodes[1].content
 
   return (
-    <div className="product-features">
+    <div className="product-features" id="products">
       <h1>Our Product Features</h1>
       <div className="core-features">
         {products.map(product => {
