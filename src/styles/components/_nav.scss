@@ -1,6 +1,6 @@
 .navbar {
   z-index: 200;
-  position: absolute;
+  position: fixed;
   width: 100%;
   min-height: 10vh;
 
@@ -96,13 +96,22 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.9);
+
+    // background-color: white;
     z-index: -100;
     display: none;
     top: 0;
     left: 0;
     right: 0;
   }
+  // .burger {
+  //   .burger-line-1,
+  //   .burger-line-2,
+  //   .burger-line-3 {
+  //     background-color: #333333;
+  //   }
+  // }
 
   .backdrop-active {
     z-index: 100;

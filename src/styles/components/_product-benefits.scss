@@ -12,6 +12,7 @@
       margin: 0;
       padding: 0;
       object-fit: cover;
+      object-position: center;
     }
     .product-benefits-row-1 {
       display: flex;
@@ -32,16 +33,24 @@
   .product-benefits {
     overflow-x: hidden;
     max-width: 100%;
-    padding: 5%;
+
     .product-benefits-row-1 {
-      padding: 5%;
       display: flex;
       flex-direction: column;
+      height: auto;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
     }
     .product-benefits-row-2 {
-      padding: 5%;
       display: flex;
       flex-direction: column;
+      height: auto;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
     }
   }
 }
