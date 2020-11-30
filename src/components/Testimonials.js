@@ -11,6 +11,8 @@ const Testimonials = props => {
             _id
             author
             review
+            itemPurchased
+            color
           }
         }
       }
@@ -29,6 +31,7 @@ const Testimonials = props => {
               name={item.author}
               itemPurchased={item.itemPurchased}
               description={item.review}
+              backgroundColor={item.color}
             />
           )
         })}
