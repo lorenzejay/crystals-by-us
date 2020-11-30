@@ -1,7 +1,7 @@
 .product-features {
   background-color: $productFeatureColor;
   text-align: start;
-  min-height: 140vh;
+  min-height: 90vh;
   width: 100%;
   padding: 5%;
   h1,
@@ -9,8 +9,76 @@
     color: #333333;
   }
   .core-features {
-    height: 140vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@include breakpoint("phone") {
+  .product-features {
+    height: 150vh;
+    .core-features {
+      height: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      .card {
+        height: 20vh;
+        img {
+          width: 165px;
+        }
+      }
+    }
+  }
+}
+@include breakpoint("phone") {
+  .product-features {
+    height: 150vh;
+    .core-features {
+      height: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      .card {
+        height: 20vh;
+        img {
+          width: 165px;
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint("phone-md") {
+  .product-features {
+    height: 120vh;
+    .core-features {
+      height: 85%;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      gap: 15px;
+      .card {
+        height: 20vh;
+        img {
+          width: 165px;
+        }
+      }
+    }
+  }
+}
+@include breakpoint("phone-small") {
+  .product-features {
+    height: 140vh;
+    .core-features {
+      height: 75%;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      gap: 15px;
+      .card {
+        height: 20vh;
+        img {
+          width: 130px;
+        }
+      }
+    }
   }
 }

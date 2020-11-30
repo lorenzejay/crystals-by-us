@@ -1,11 +1,16 @@
 .card {
-  width: 22vw;
-  height: 35vh;
+  min-width: 22vw;
+  height: 60vh;
   margin: 15px 5px;
+  img {
+    width: 300px;
+    object-fit: cover;
+  }
   .card-text {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+
     h4,
     p {
       padding: 2%;

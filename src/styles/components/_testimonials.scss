@@ -1,7 +1,6 @@
 .testimonials {
   background-color: $testimonialsBackgroundColor;
-  text-align: center;
-  margin: 0 auto;
+  margin: 10vh auto;
   padding: 1em 0;
 
   h1 {
@@ -42,5 +41,18 @@
   .testimonial-card-3 {
     max-width: 16rem;
     height: 35rem;
+  }
+}
+
+@include breakpoint("phone") {
+  .testimonials {
+    .testimonial-group {
+      flex-direction: column;
+      align-items: center;
+      gap: 5vh;
+      .testimonial-cards {
+        width: 300px;
+      }
+    }
   }
 }

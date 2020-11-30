@@ -21,20 +21,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
+// article,
+// aside,
+// details,
+// figcaption,
+// figure,
+// footer,
+// header,
+// main,
+// menu,
+// nav,
+// section,
+// summary {
+//   display: block;
+// }
 
 audio,
 canvas,
@@ -43,6 +43,6 @@ video {
   display: inline-block;
 }
 
-@media only screen and (max-width: 40rem) {
-  overflow-x: hidden;
-}
+// @media only screen and (max-width: 40rem) {
+//   overflow-x: hidden;
+// }

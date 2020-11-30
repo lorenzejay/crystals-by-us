@@ -15,8 +15,8 @@ const ProductFeatures = props => {
             price
             image {
               childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 500, quality: 60) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxWidth: 400, maxHeight: 400, quality: 100) {
+                  src
                 }
               }
             }
@@ -36,7 +36,7 @@ const ProductFeatures = props => {
           return (
             <ProductCard
               key={product._id}
-              imageSrc={product.image.childImageSharp.fluid}
+              imageSrc={product.image.childImageSharp.fluid.src}
               pName={product.name}
               pPrice={product.price}
             />

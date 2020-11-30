@@ -8,3 +8,12 @@
     font-weight: 500;
   }
 }
+
+@include breakpoint("phone") {
+  .cta {
+    p {
+      font-size: 1.2rem;
+      margin: 5vh 0;
+    }
+  }
+}
