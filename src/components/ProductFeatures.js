@@ -1,8 +1,6 @@
 import React from "react"
-import Img from "gatsby-image/withIEPolyfill"
 import { graphql, useStaticQuery } from "gatsby"
 import ProductCard from "./ProductCard"
-import ProductData from "../content/allProductData.json"
 
 const ProductFeatures = props => {
   const data = useStaticQuery(graphql`
@@ -25,7 +23,8 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[1].content
+  const products = data.allContentJson.nodes[0].content
+  console.log(data)
 
   return (
     <div className="product-features" id="products">
@@ -39,6 +38,7 @@ const ProductFeatures = props => {
               imageSrc={product.image.childImageSharp.fluid.src}
               pName={product.name}
               pPrice={product.price}
+              pDescription={product.description}
             />
           )
         })}

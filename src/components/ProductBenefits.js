@@ -1,6 +1,4 @@
 import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import Img from "gatsby-image/withIEPolyfill"
 import { graphql, useStaticQuery } from "gatsby"
 
 const ProductBenefits = props => {
@@ -47,12 +45,28 @@ const ProductBenefits = props => {
       <div className="product-benefits-content">
         <h1>Each Crystal has meaning.</h1>
         <div className="product-benefits-row-1">
-          <img src={image1.src} style={{ height: 700, width: 450 }} />
-          <img src={image2.src} style={{ height: 450, width: 400 }} />
+          <img
+            src={image1.src}
+            style={{ height: 700, width: 450 }}
+            alt="Crystal of various kinds."
+          />
+          <img
+            src={image2.src}
+            style={{ height: 450, width: 400 }}
+            alt="Crystal of various kinds."
+          />
         </div>
         <div className="product-benefits-row-2">
-          <img src={image4.src} style={{ height: 500, width: 350 }} />
-          <img src={image3.src} style={{ height: 600, width: 450 }} />
+          <img
+            src={image4.src}
+            style={{ height: 500, width: 350 }}
+            alt="Crystal of various kinds."
+          />
+          <img
+            src={image3.src}
+            style={{ height: 600, width: 450 }}
+            alt="Crystal of various kinds."
+          />
         </div>
       </div>
     </section>
