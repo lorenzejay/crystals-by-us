@@ -4,17 +4,20 @@
     {
       "_id": 1,
       "author": "John Doe",
-      "review": "One of the best crystals I've ever seen."
+      "review": "One of the best crystals I've ever seen.",
+      "itemPurchased": "Rose Quartz"
     },
     {
       "_id": 2,
       "author": "Jane Doe",
-      "review": "Cannot get any better than this."
+      "review": "Cannot get any better than this.",
+      "itemPurchased": "Amethyst"
     },
     {
       "_id": 3,
       "author": "Amazing Quality",
-      "review": "I got the Obsidian Cystal necklace for my husband and it was absolutely worth it."
+      "review": "I got the Obsidian Cystal necklace for my husband and it was absolutely worth it.",
+      "itemPurchased": "Obsedian"
     }
   ]
 }
