@@ -28,6 +28,7 @@ const Testimonials = props => {
           console.log(item)
           return (
             <TestimonialCard
+              key={item._id}
               name={item.author}
               itemPurchased={item.itemPurchased}
               description={item.review}

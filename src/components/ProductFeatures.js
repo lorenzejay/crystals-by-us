@@ -32,7 +32,7 @@ const ProductFeatures = props => {
       <h1>Our Product Features</h1>
       <div className="core-features">
         {products.map(product => {
-          console.log(product.image)
+          console.log(product)
           return (
             <ProductCard
               key={product._id}
