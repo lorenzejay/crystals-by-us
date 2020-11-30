@@ -43,7 +43,7 @@ const ProductBenefits = props => {
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">
-        <h1>Each Crystal has meaning.</h1>
+        <h1>Each Crystal has a meaning.</h1>
         <div className="product-benefits-row-1">
           <img
             src={image1.src}
