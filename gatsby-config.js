@@ -2,7 +2,7 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Crystals By Us`,
-    description: `Clean and modern landing page starter template for your next saas project launch.`,
+    description: `Hand picked crystals by us.`,
     siteUrl: `https://www.gatsby-landing-page-starter.com`,
     author: `@btahir`,
   },
