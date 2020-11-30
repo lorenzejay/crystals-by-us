@@ -8,28 +8,28 @@ const ProductBenefits = props => {
     query {
       image1: file(relativePath: { eq: "crystal1.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 85) {
+          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image2: file(relativePath: { eq: "crystal2.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 85) {
+          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image3: file(relativePath: { eq: "crystal3.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 85) {
+          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       image4: file(relativePath: { eq: "crystal4.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 85) {
+          fluid(maxWidth: 500, maxHeight: 500) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -49,7 +49,7 @@ const ProductBenefits = props => {
         <div className="product-benefits-row-1">
           <Img
             fluid={image1}
-            style={{ height: 700, width: 500 }}
+            style={{ height: 700, width: 450 }}
             objectFit="cover"
           />
           <Img
@@ -66,9 +66,10 @@ const ProductBenefits = props => {
           />
           <Img
             fluid={image3}
-            style={{ height: 600, width: 450 }}
+            style={{ height: 500, width: 350, objectFit: "cover" }}
             objectFit="cover"
           />
+          {/* <img srcSet={image3.src} style={{ height: 600, width: 450 }} /> */}
         </div>
       </div>
     </section>
