@@ -31,22 +31,5 @@
       "name": "Amethyst",
       "price": 15
     }
-  ],
-  "testimonials": [
-    {
-      "_id": 1,
-      "author": "John Doe",
-      "review": "One of the best crystals I've ever seen."
-    },
-    {
-      "_id": 2,
-      "author": "Jane Doe",
-      "review": "Cannot get any better than this."
-    },
-    {
-      "_id": 3,
-      "author": "Amazing Quality",
-      "review": "I got the Obsidian Cystal necklace for my husband and it was absolutely worth it."
-    }
   ]
 }
