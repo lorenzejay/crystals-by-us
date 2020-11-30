@@ -15,7 +15,7 @@ const ProductFeatures = props => {
             price
             image {
               childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 500, quality: 90) {
+                fluid(maxWidth: 400, maxHeight: 500, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -25,7 +25,7 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[1].content
+  const products = data.allContentJson.nodes[0].content
 
   return (
     <div className="product-features">

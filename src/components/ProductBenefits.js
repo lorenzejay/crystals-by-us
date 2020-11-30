@@ -2,7 +2,6 @@ import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import Img from "gatsby-image/withIEPolyfill"
 import { graphql, useStaticQuery } from "gatsby"
-import productBenefitsData from "../content/product-benefits.json"
 
 const ProductBenefits = props => {
   const data = useStaticQuery(graphql`
@@ -42,11 +41,11 @@ const ProductBenefits = props => {
   const image2 = data.image2.childImageSharp.fluid
   const image3 = data.image3.childImageSharp.fluid
   const image4 = data.image4.childImageSharp.fluid
-  console.log(productBenefitsData)
+
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">
-        <h1>{productBenefitsData.title}</h1>
+        <h1>Each Crystal has meaning.</h1>
         <div className="product-benefits-row-1">
           <Img
             fluid={image1}

@@ -1,15 +1,14 @@
 .product-features {
   background-color: $productFeatureColor;
-  text-align: center;
+  text-align: start;
   min-height: 140vh;
   width: 100%;
-  margin: 5vh 0;
+  padding: 5%;
   h1,
   p {
     color: #333333;
   }
   .core-features {
-    padding: 0 5%;
     height: 140vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
