@@ -8,6 +8,9 @@
   p {
     color: #333333;
   }
+  p {
+    font-size: 1.3rem;
+  }
   .core-features {
     height: 100%;
     display: grid;
@@ -56,6 +59,7 @@
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
       gap: 15px;
+
       .card {
         height: 20vh;
         img {

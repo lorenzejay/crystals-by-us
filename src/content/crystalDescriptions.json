@@ -5,31 +5,31 @@
       "_id": 1,
       "image": "../images/flouriteStone.jpg",
       "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills."
     },
     {
       "_id": 2,
-      "image": "../images/opal.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "image": "../images/CitrineStone.jpg",
+      "name": "Citrine",
+      "description": "The stone for finding your power to attract prosperity and unlock your soul, the happy stone that brights up any energy to light up aspects in your."
     },
     {
       "_id": 3,
       "image": "../images/opal.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "name": "Amethyst",
+      "description": " The stone for natural stress relief and cleansing negative energy , brings peace, stability, courage, and strength, helps balance mood swings while encouraging honesty and self control."
     },
     {
       "_id": 4,
       "image": "../images/opal.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "name": "Rose Quartz",
+      "description": "Rose quartz - the stone for universal love, such as self love, family, platonic, romantic, and unconditional, promotes peace and confidence, heals the heart from any emotional stress."
     },
     {
       "_id": 5,
       "image": "../images/opal.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "name": "Labradorite",
+      "description": "The stone of transformation helps you overcome fears and insecurities to bring excitement and adventure while being protected from negative energy."
     },
     {
       "_id": 6,
@@ -40,8 +40,26 @@
     {
       "_id": 7,
       "image": "../images/opal.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "name": "Opal",
+      "description": "The stone of healing, the best energy amplifier and healer, it improves quality in life by making you feel happier and reenergized while bringing your body back into balance."
+    },
+    {
+      "_id": 8,
+      "image": "../images/opal.jpg",
+      "name": "Obsidian",
+      "description": "Obsidian the stone of protection, releases resentment, fear, and anger, absorbs negative energies while cutting cords that stop us from moving on, brings clarity."
+    },
+    {
+      "_id": 9,
+      "image": "../images/opal.jpg",
+      "name": "Smokey Quartz",
+      "description": "The stone of endurance, detoxifies your aura while relieving tension, stress, and anxiety, also wards off negative energy."
+    },
+    {
+      "_id": 10,
+      "image": "../images/opal.jpg",
+      "name": "Ocean Jasper",
+      "description": "The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident"
     }
   ]
 }

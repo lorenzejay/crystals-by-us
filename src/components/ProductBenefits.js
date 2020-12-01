@@ -1,7 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const ProductBenefits = props => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+    AOS.refresh()
+  }, [])
+
   const data = useStaticQuery(graphql`
     query {
       allContentJson {
@@ -33,6 +40,8 @@ const ProductBenefits = props => {
         {crystalInfo.crystals.map(item => {
           return (
             <div
+              data-aos="fade-up"
+              key={item._id}
               className={`${
                 item._id % 2 !== 0
                   ? "crystal-image-left"
@@ -43,37 +52,13 @@ const ProductBenefits = props => {
                 src={item.image.childImageSharp.fluid.src}
                 alt={item.description}
               />
-              <div>
-                {item.name}
-                {item.description}
+              <div className="product-info-text">
+                <h2>{item.name}</h2>
+                <p>{item.description}</p>
               </div>
             </div>
           )
         })}
-        {/* <div className="product-benefits-row-1">
-          <img
-            src={image1.src}
-            style={{ height: 700, width: 450 }}
-            alt="Crystal of various kinds."
-          />
-          <img
-            src={image2.src}
-            style={{ height: 450, width: 400 }}
-            alt="Crystal of various kinds."
-          />
-        </div>
-        <div className="product-benefits-row-2">
-          <img
-            src={image4.src}
-            style={{ height: 500, width: 350 }}
-            alt="Crystal of various kinds."
-          />
-          <img
-            src={image3.src}
-            style={{ height: 600, width: 450 }}
-            alt="Crystal of various kinds."
-          />
-        </div> */}
       </div>
     </section>
   )
