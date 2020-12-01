@@ -31,7 +31,8 @@ const ProductBenefits = props => {
     }
   `)
 
-  const crystalInfo = data.allContentJson.nodes[2]
+  const crystalInfo = data.allContentJson.nodes[1]
+  console.log(data)
 
   return (
     <section className="product-benefits">
