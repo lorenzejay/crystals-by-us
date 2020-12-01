@@ -107,6 +107,7 @@
 }
 @include breakpoint("tablet-l") {
   .product-features {
+    height: 100vh;
     h1 {
       font-size: 3rem;
     }
@@ -125,7 +126,6 @@
           width: 280px;
         }
         .card-text {
-          height: 20vh;
           h4 {
             font-size: 1.5rem;
           }
