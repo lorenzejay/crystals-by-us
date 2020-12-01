@@ -38,7 +38,7 @@
       flex-direction: row-reverse;
       gap: 35px;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
     }
     .crystal-image-left,
     .crystal-image-right {
@@ -48,10 +48,12 @@
         height: 350px;
         object-fit: cover;
         object-position: center;
+        margin-bottom: 3vh;
       }
       .product-info-text {
         display: flex;
         flex-direction: column;
+        float: left;
         width: 50%;
         p {
           font-size: 1.3rem;
@@ -69,6 +71,9 @@
       .crystal-image-left,
       .crystal-image-right {
         flex-direction: column;
+        img {
+          width: 100%;
+        }
         .product-info-text {
           width: 100%;
         }
