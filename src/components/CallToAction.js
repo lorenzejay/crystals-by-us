@@ -4,7 +4,10 @@ import Button from "./Button"
 const CallToAction = props => {
   return (
     <section className="cta">
-      <h1>Our goal is to inspire you to believe.</h1>
+      <h1>
+        Our Goal is to Inspire you to{" "}
+        <span style={{ textDecoration: "underline" }}>BELIEVE</span>
+      </h1>
       <p>
         We vary in sizes for those who prefer to carry crystals around with
         them, wear them, or display them.

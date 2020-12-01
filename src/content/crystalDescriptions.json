@@ -15,51 +15,57 @@
     },
     {
       "_id": 3,
-      "image": "../images/opal.jpg",
+      "image": "../images/AmethystStone.jpg",
       "name": "Amethyst",
       "description": " The stone for natural stress relief and cleansing negative energy , brings peace, stability, courage, and strength, helps balance mood swings while encouraging honesty and self control."
     },
     {
       "_id": 4,
-      "image": "../images/opal.jpg",
+      "image": "../images/RoseQuartzStone.jpg",
       "name": "Rose Quartz",
       "description": "Rose quartz - the stone for universal love, such as self love, family, platonic, romantic, and unconditional, promotes peace and confidence, heals the heart from any emotional stress."
     },
     {
       "_id": 5,
-      "image": "../images/opal.jpg",
+      "image": "../images/LabradoriteStone.jpg",
       "name": "Labradorite",
       "description": "The stone of transformation helps you overcome fears and insecurities to bring excitement and adventure while being protected from negative energy."
     },
     {
       "_id": 6,
-      "image": "../images/opal.jpg",
+      "image": "../images/ClearQuartzStone.jpg",
       "name": "Flourite",
       "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
     },
     {
       "_id": 7,
-      "image": "../images/opal.jpg",
+      "image": "../images/OpalStone.jpg",
       "name": "Opal",
       "description": "The stone of healing, the best energy amplifier and healer, it improves quality in life by making you feel happier and reenergized while bringing your body back into balance."
     },
     {
       "_id": 8,
-      "image": "../images/opal.jpg",
+      "image": "../images/ObsidianStone.jpg",
       "name": "Obsidian",
       "description": "Obsidian the stone of protection, releases resentment, fear, and anger, absorbs negative energies while cutting cords that stop us from moving on, brings clarity."
     },
     {
       "_id": 9,
-      "image": "../images/opal.jpg",
+      "image": "../images/SmokeyQuartz.jpg",
       "name": "Smokey Quartz",
       "description": "The stone of endurance, detoxifies your aura while relieving tension, stress, and anxiety, also wards off negative energy."
     },
     {
       "_id": 10,
-      "image": "../images/opal.jpg",
+      "image": "../images/OceanJasperStone.jpg",
       "name": "Ocean Jasper",
-      "description": "The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident"
+      "description": "The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident."
+    },
+    {
+      "_id": 11,
+      "image": "../images/7chakrasStone.jpg",
+      "name": "7 Chakras",
+      "description": "1. Root Chakra-Red Jasper-stability   2. Sacral Chakra-Red Carnelian-absorption   3. Solar Plexus Chakra - Yellow Aventurine - prosperity   4. Heart Chakra - Green Aventurine - comfort   5. Throat Chakra - Lapis Lazuli - strength   6. Third Eye Chakra - Blue Aventurine - intuition    7. Crown Chakra – Amethyst - reliever."
     }
   ]
 }
