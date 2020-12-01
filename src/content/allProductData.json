@@ -1,35 +1,37 @@
 {
   "title": "Our Products",
+  "info": "You can choose from either a gold or silver chain.",
   "content": [
     {
       "_id": 1,
-      "image": "../images/crystal1.jpg",
-      "name": "Green Flurite",
-      "price": 15
+      "image": "../images/opal.jpg",
+      "name": "Opal",
+      "price": 16
     },
     {
       "_id": 2,
-      "image": "../images/crystal2.jpg",
-      "name": "Rose Quartz",
-      "price": 15
+      "image": "../images/Amethyst.jpg",
+      "name": "Amethyst",
+      "price": 16
     },
     {
       "_id": 3,
-      "image": "../images/crystal3.jpg",
-      "name": "Obsidian",
-      "price": 15
+      "image": "../images/RoseQuartz.jpg",
+      "name": "Rose Quartz",
+      "price": 16
     },
+
     {
       "_id": 4,
-      "image": "../images/crystal4.jpg",
-      "name": "Opal",
-      "price": 15
+      "image": "../images/Obsidian.jpg",
+      "name": "Obsidian",
+      "price": 16
     },
     {
       "_id": 5,
-      "image": "../images/crystal1.jpg",
-      "name": "Amethyst",
-      "price": 15
+      "image": "../images/Flourite.jpg",
+      "name": "Flurite",
+      "price": 16
     }
   ]
 }

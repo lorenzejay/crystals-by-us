@@ -4,7 +4,7 @@ module.exports = {
     title: `Crystals By Us`,
     description: `Hand picked crystals by us.`,
     siteUrl: `https://www.gatsby-landing-page-starter.com`,
-    author: `@btahir`,
+    author: `@ljaph`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

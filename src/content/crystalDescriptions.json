@@ -1,0 +1,47 @@
+{
+  "title": "Each Crystal has a Meaning",
+  "crystals": [
+    {
+      "_id": 1,
+      "image": "../images/flouriteStone.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 2,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 3,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 4,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 5,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 6,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    },
+    {
+      "_id": 7,
+      "image": "../images/opal.jpg",
+      "name": "Flourite",
+      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+    }
+  ]
+}

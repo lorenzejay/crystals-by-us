@@ -4,47 +4,53 @@ import { graphql, useStaticQuery } from "gatsby"
 const ProductBenefits = props => {
   const data = useStaticQuery(graphql`
     query {
-      image1: file(relativePath: { eq: "crystal1.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
-            src
-          }
-        }
-      }
-      image2: file(relativePath: { eq: "crystal2.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
-            src
-          }
-        }
-      }
-      image3: file(relativePath: { eq: "crystal3.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
-            src
-          }
-        }
-      }
-      image4: file(relativePath: { eq: "crystal4.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500) {
-            src
+      allContentJson {
+        nodes {
+          title
+          crystals {
+            _id
+            name
+            description
+            image {
+              childImageSharp {
+                fluid {
+                  src
+                }
+              }
+            }
           }
         }
       }
     }
   `)
 
-  const image1 = data.image1.childImageSharp.fluid
-  const image2 = data.image2.childImageSharp.fluid
-  const image3 = data.image3.childImageSharp.fluid
-  const image4 = data.image4.childImageSharp.fluid
+  const crystalInfo = data.allContentJson.nodes[2]
 
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">
-        <h1>Each Crystal has a meaning.</h1>
-        <div className="product-benefits-row-1">
+        <h1>{crystalInfo.title}</h1>
+        {crystalInfo.crystals.map(item => {
+          return (
+            <div
+              className={`${
+                item._id % 2 !== 0
+                  ? "crystal-image-left"
+                  : "crystal-image-right"
+              }`}
+            >
+              <img
+                src={item.image.childImageSharp.fluid.src}
+                alt={item.description}
+              />
+              <div>
+                {item.name}
+                {item.description}
+              </div>
+            </div>
+          )
+        })}
+        {/* <div className="product-benefits-row-1">
           <img
             src={image1.src}
             style={{ height: 700, width: 450 }}
@@ -67,7 +73,7 @@ const ProductBenefits = props => {
             style={{ height: 600, width: 450 }}
             alt="Crystal of various kinds."
           />
-        </div>
+        </div> */}
       </div>
     </section>
   )

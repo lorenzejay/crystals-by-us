@@ -7,6 +7,8 @@ const ProductFeatures = props => {
     query MyQuery {
       allContentJson {
         nodes {
+          title
+          info
           content {
             _id
             name
@@ -23,14 +25,14 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[0].content
-  console.log(data)
+  const products = data.allContentJson.nodes[0]
 
   return (
     <div className="product-features" id="products">
-      <h1>Our Product Features</h1>
+      <h1>{products.title}</h1>
+      <p>{products.info}</p>
       <div className="core-features">
-        {products.map(product => {
+        {products.content.map(product => {
           console.log(product)
           return (
             <ProductCard
