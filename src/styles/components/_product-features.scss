@@ -34,22 +34,6 @@
     }
   }
 }
-@include breakpoint("phone") {
-  .product-features {
-    height: 150vh;
-    .core-features {
-      height: 100%;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
-      .card {
-        height: 20vh;
-        img {
-          width: 165px;
-        }
-      }
-    }
-  }
-}
 
 @include breakpoint("phone-md") {
   .product-features {
@@ -81,6 +65,73 @@
         height: 20vh;
         img {
           width: 130px;
+        }
+        .card-text {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@include breakpoint("tablet-p") {
+  .product-features {
+    height: 80vh;
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    .core-features {
+      margin-top: 5vh;
+      height: 75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      gap: 25px;
+      .card {
+        height: 23vh;
+
+        img {
+          width: 215px;
+        }
+        .card-text {
+          h4 {
+            font-size: 1.45rem;
+          }
+        }
+      }
+    }
+  }
+}
+@include breakpoint("tablet-l") {
+  .product-features {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+    height: 70vh;
+    .core-features {
+      margin-top: 5vh;
+      height: 75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      .card {
+        height: 10vh;
+        img {
+          width: 280px;
+        }
+        .card-text {
+          height: 20vh;
+          h4 {
+            font-size: 1.5rem;
+          }
+          p {
+            font-size: 1.4rem;
+          }
         }
       }
     }
