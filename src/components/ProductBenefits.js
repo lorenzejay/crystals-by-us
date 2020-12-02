@@ -14,7 +14,7 @@ const ProductBenefits = props => {
     query {
       allContentJson {
         nodes {
-          title
+          heading
           crystals {
             _id
             name
@@ -32,12 +32,12 @@ const ProductBenefits = props => {
     }
   `)
 
-  const crystalInfo = data.allContentJson.nodes[1]
+  const crystalInfo = data.allContentJson.nodes[2]
   console.log("crystalifno", crystalInfo)
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">
-        <h1>{crystalInfo.title}</h1>
+        <h1>{crystalInfo.heading}</h1>
         {crystalInfo.crystals &&
           crystalInfo.crystals.map(item => {
             return (
