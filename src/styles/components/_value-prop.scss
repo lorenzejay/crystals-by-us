@@ -6,7 +6,7 @@
     background-size: cover;
 
     background-position: center;
-    background-image: url("../images/main.jpg");
+    background: #333333;
     .value-main-image-content {
       padding: 0 5%;
       display: flex;
@@ -32,7 +32,6 @@
   .value-prop {
     height: 100vh;
     .value-main-image {
-      background-image: url("../images/heroImage.jpg");
       background-image: #ffffff;
     }
   }
