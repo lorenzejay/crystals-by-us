@@ -32,7 +32,7 @@ const ProductBenefits = props => {
     }
   `)
 
-  const crystalInfo = data.allContentJson.nodes[1]
+  const crystalInfo = data.allContentJson.nodes[0]
 
   return (
     <section className="product-benefits">
