@@ -1,8 +1,8 @@
 import React, { useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import DOMPurify from "dompurify"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import sanitizeHtml from "sanitize-html"
 
 const ProductBenefits = props => {
   useEffect(() => {
@@ -33,7 +33,6 @@ const ProductBenefits = props => {
   `)
 
   const crystalInfo = data.allContentJson.nodes[1]
-  const sanitizer = DOMPurify.sanitize
 
   return (
     <section className="product-benefits">
@@ -63,7 +62,9 @@ const ProductBenefits = props => {
                     key={item._id}
                     id={item._id}
                     dangerouslySetInnerHTML={{
-                      __html: sanitizer(item.description),
+                      __html: sanitizeHtml(item.description, {
+                        allowedTags: ["p", "ol", "li", "span"],
+                      }),
                     }}
                   />
                 </span>
