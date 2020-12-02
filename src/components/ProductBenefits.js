@@ -32,8 +32,8 @@ const ProductBenefits = props => {
     }
   `)
 
-  const crystalInfo = data.allContentJson.nodes[2]
-  console.log(data)
+  const crystalInfo = data.allContentJson.nodes[1]
+  const sanitizer = DOMPurify.sanitize
 
   return (
     <section className="product-benefits">
@@ -58,15 +58,15 @@ const ProductBenefits = props => {
               </a>
               <div className="product-info-text">
                 <h2>{item.name}</h2>
-                <article>
+                <span>
                   <div
                     key={item._id}
                     id={item._id}
                     dangerouslySetInnerHTML={{
-                      __html: DOMPurify.sanitize(item.description),
+                      __html: sanitizer(item.description),
                     }}
                   />
-                </article>
+                </span>
               </div>
             </div>
           )

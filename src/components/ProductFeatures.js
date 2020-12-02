@@ -25,7 +25,7 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[1]
+  const products = data.allContentJson.nodes[0]
 
   return (
     <div className="product-features" id="products">
