@@ -25,18 +25,18 @@ const Testimonials = props => {
     <section className="testimonials">
       <h1>Here&apos;s What Our Customers Are Saying</h1>
       <div className="testimonial-group">
-        {testimonials.map(item => {
-          console.log("testimonials", item)
-          return (
-            <TestimonialCard
-              key={item._id}
-              name={item.author}
-              itemPurchased={item.itemPurchased}
-              description={item.review}
-              backgroundColor={item.color}
-            />
-          )
-        })}
+        {testimonials &&
+          testimonials.map(item => {
+            return (
+              <TestimonialCard
+                key={item._id}
+                name={item.author}
+                itemPurchased={item.itemPurchased}
+                description={item.review}
+                backgroundColor={item.color}
+              />
+            )
+          })}
       </div>
     </section>
   )

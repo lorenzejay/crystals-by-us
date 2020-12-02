@@ -33,18 +33,18 @@ const ProductFeatures = props => {
       <h1>{products.title}</h1>
       <p>{products.info}</p>
       <div className="core-features">
-        {products.content.map(product => {
-          console.log("product", product)
-          return (
-            <ProductCard
-              key={product._id}
-              imageSrc={product.image.childImageSharp.fluid.src}
-              pName={product.name}
-              pPrice={product.price}
-              pDescription={product.description}
-            />
-          )
-        })}
+        {products.content &&
+          products.content.map(product => {
+            return (
+              <ProductCard
+                key={product._id}
+                imageSrc={product.image.childImageSharp.fluid.src}
+                pName={product.name}
+                pPrice={product.price}
+                pDescription={product.description}
+              />
+            )
+          })}
       </div>
     </div>
   )
