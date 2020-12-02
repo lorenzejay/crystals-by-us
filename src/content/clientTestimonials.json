@@ -3,23 +3,20 @@
   "testimonials": [
     {
       "_id": 1,
-      "author": "John Doe",
-      "review": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "itemPurchased": "Rose Quartz",
+      "author": "@beyaangobung",
+      "review": "100% top quality crystals. I love how they interact with their followers and make sure that they get the best experience when picking out their crystals.",
       "color": "#F7CAC9"
     },
     {
       "_id": 2,
-      "author": "Jane Doe",
-      "review": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "itemPurchased": "Green Fluorite",
+      "author": "@badgyaldesi",
+      "review": "Connie & Jacob have the best quality crystals!! They have affordable pricing by including bundles or gift sets. They also include shipping and have awesome customer service.",
       "color": "#C4F2BE"
     },
     {
       "_id": 3,
-      "author": "Alice",
-      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "itemPurchased": "Obsedian",
+      "author": "@anniebanannie_16",
+      "review": "Beautiful crystals at an absolutely affordable price. Plus great customer service. Love love love crystalsbyus. ❤️",
       "color": ""
     }
   ]

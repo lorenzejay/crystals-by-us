@@ -5,7 +5,7 @@ const CallToAction = props => {
   return (
     <section className="cta">
       <h1>
-        Our Goal is to Inspire you to{" "}
+        Our Goal is to inspire you to{" "}
         <span style={{ textDecoration: "underline" }}>BELIEVE</span>
       </h1>
       <p>

@@ -11,14 +11,13 @@ const Testimonials = props => {
             _id
             author
             review
-            itemPurchased
             color
           }
         }
       }
     }
   `)
-  const testimonials = data.allContentJson.nodes[1].testimonials
+  const testimonials = data.allContentJson.nodes[2].testimonials
 
   return (
     <section className="testimonials">
@@ -30,7 +29,6 @@ const Testimonials = props => {
               <TestimonialCard
                 key={item._id}
                 name={item.author}
-                itemPurchased={item.itemPurchased}
                 description={item.review}
                 backgroundColor={item.color}
               />

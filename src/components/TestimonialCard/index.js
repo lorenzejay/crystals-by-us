@@ -13,9 +13,8 @@ const TestimonialCard = ({
       style={{ backgroundColor: backgroundColor }}
     >
       <div className="testimonial-content">
-        <h3>{name}</h3>
-        <h6>{itemPurchased}</h6>
         <p>&ldquo;{description}&rdquo;</p>
+        <h3>{name}</h3>
       </div>
     </div>
   )
