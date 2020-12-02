@@ -1,71 +1,71 @@
 {
-  "title": "Each Crystal has a Meaning",
+  "title": "Crystal Healing Properties",
   "crystals": [
     {
       "_id": 1,
       "image": "../images/flouriteStone.jpg",
       "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills."
+      "description": "<p>The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills.</p>"
     },
     {
       "_id": 2,
       "image": "../images/CitrineStone.jpg",
       "name": "Citrine",
-      "description": "The stone for finding your power to attract prosperity and unlock your soul, the happy stone that brights up any energy to light up aspects in your."
+      "description": "<p>The stone for finding your power to attract prosperity and unlock your soul, the happy stone that brights up any energy to light up aspects in your.</p>"
     },
     {
       "_id": 3,
       "image": "../images/AmethystStone.jpg",
       "name": "Amethyst",
-      "description": " The stone for natural stress relief and cleansing negative energy , brings peace, stability, courage, and strength, helps balance mood swings while encouraging honesty and self control."
+      "description": " <p>The stone for natural stress relief and cleansing negative energy , brings peace, stability, courage, and strength, helps balance mood swings while encouraging honesty and self control.</p>"
     },
     {
       "_id": 4,
       "image": "../images/RoseQuartzStone.jpg",
       "name": "Rose Quartz",
-      "description": "Rose quartz - the stone for universal love, such as self love, family, platonic, romantic, and unconditional, promotes peace and confidence, heals the heart from any emotional stress."
+      "description": "<p>Rose quartz - the stone for universal love, such as self love, family, platonic, romantic, and unconditional, promotes peace and confidence, heals the heart from any emotional stress.</p>"
     },
     {
       "_id": 5,
       "image": "../images/LabradoriteStone.jpg",
       "name": "Labradorite",
-      "description": "The stone of transformation helps you overcome fears and insecurities to bring excitement and adventure while being protected from negative energy."
+      "description": "<p>The stone of transformation helps you overcome fears and insecurities to bring excitement and adventure while being protected from negative energy.</p>"
     },
     {
       "_id": 6,
       "image": "../images/ClearQuartzStone.jpg",
-      "name": "Flourite",
-      "description": "The stone for creating a path to your future, draws out negative energies and stress of any kind while stimulating memory and learning skills"
+      "name": "Clear Quartz",
+      "description": "<p>The stone of healing, the best energy amplifier and healer, it improves quality in life by making you feel happier and reenergized while bringing your body back into balance.</p>"
     },
     {
       "_id": 7,
       "image": "../images/OpalStone.jpg",
       "name": "Opal",
-      "description": "The stone of healing, the best energy amplifier and healer, it improves quality in life by making you feel happier and reenergized while bringing your body back into balance."
+      "description": "<p>The stone of inspiration, enhances creativity and imagination, brings hope and inner peace, enhances memory while decreasing confusion.</p>"
     },
     {
       "_id": 8,
       "image": "../images/ObsidianStone.jpg",
       "name": "Obsidian",
-      "description": "Obsidian the stone of protection, releases resentment, fear, and anger, absorbs negative energies while cutting cords that stop us from moving on, brings clarity."
+      "description": "<p>Obsidian the stone of protection, releases resentment, fear, and anger, absorbs negative energies while cutting cords that stop us from moving on, brings clarity.</p>"
     },
     {
       "_id": 9,
       "image": "../images/SmokeyQuartz.jpg",
       "name": "Smokey Quartz",
-      "description": "The stone of endurance, detoxifies your aura while relieving tension, stress, and anxiety, also wards off negative energy."
+      "description": "<p>The stone of endurance, detoxifies your aura while relieving tension, stress, and anxiety, also wards off negative energy.</p>"
     },
     {
       "_id": 10,
       "image": "../images/OceanJasperStone.jpg",
       "name": "Ocean Jasper",
-      "description": "The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident."
+      "description": "<p>The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident.</p>"
     },
     {
       "_id": 11,
       "image": "../images/7chakrasStone.jpg",
       "name": "7 Chakras",
-      "description": "1. Root Chakra-Red Jasper-stability   2. Sacral Chakra-Red Carnelian-absorption   3. Solar Plexus Chakra - Yellow Aventurine - prosperity   4. Heart Chakra - Green Aventurine - comfort   5. Throat Chakra - Lapis Lazuli - strength   6. Third Eye Chakra - Blue Aventurine - intuition    7. Crown Chakra – Amethyst - reliever."
+      "description": "<ol><li>Root Chakra - Red Jasper - stability</li> <li>Sacral Chakra - Red Carnelian - absorption</li> <li>Solar Plexus Chakra - Yellow Aventurine - prosperity</li> <li>Heart Chakra - Green Aventurine - comfort</li> <li>Throat Chakra - Lapis Lazuli - strength</li> <li>Third Eye Chakra - Blue Aventurine - intuition</li> <li>Crown Chakra – Amethyst - reliever</li></ol>"
     }
   ]
 }

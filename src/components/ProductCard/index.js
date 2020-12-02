@@ -3,7 +3,9 @@ import "./styles.scss"
 const ProductCard = ({ imageSrc, pName, pDescription, pPrice }) => {
   return (
     <div className="card">
-      <img src={imageSrc} alt={pDescription} />
+      <a href="https://www.instagram.com/crystalsbyus/">
+        <img src={imageSrc} alt={pDescription} />
+      </a>
 
       <div className="card-text">
         <h4>{pName}</h4>

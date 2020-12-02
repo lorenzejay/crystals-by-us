@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import DOMPurify from "dompurify"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
@@ -49,13 +50,23 @@ const ProductBenefits = props => {
                   : "crystal-image-right"
               }`}
             >
-              <img
-                src={item.image.childImageSharp.fluid.src}
-                alt={item.description}
-              />
+              <a href="https://www.instagram.com/crystalsbyus/">
+                <img
+                  src={item.image.childImageSharp.fluid.src}
+                  alt={item.description}
+                />
+              </a>
               <div className="product-info-text">
                 <h2>{item.name}</h2>
-                <p>{item.description}</p>
+                <article>
+                  <div
+                    key={item._id}
+                    id={item._id}
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(item.description),
+                    }}
+                  />
+                </article>
               </div>
             </div>
           )

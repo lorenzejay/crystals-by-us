@@ -11,8 +11,6 @@
     img {
       margin: 0;
       padding: 0;
-      object-fit: cover;
-      object-position: center;
     }
     .crystal-image-left {
       display: flex;
@@ -46,7 +44,7 @@
       img {
         width: 350px;
         height: 350px;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center;
         margin-bottom: 3vh;
       }
@@ -55,8 +53,11 @@
         flex-direction: column;
         float: left;
         width: 50%;
-        p {
-          font-size: 1.3rem;
+        p,
+        ol {
+          li {
+            font-size: 1.3rem;
+          }
         }
       }
     }
@@ -71,11 +72,20 @@
       .crystal-image-left,
       .crystal-image-right {
         flex-direction: column;
-        img {
-          width: 100%;
+        a {
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
         }
         .product-info-text {
-          width: 100%;
+          width: 90%;
+          p,
+          ol {
+            li {
+              font-size: 1rem;
+            }
+          }
         }
       }
     }

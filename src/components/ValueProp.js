@@ -26,9 +26,10 @@ const ValueProp = props => {
           fluid={imageData}
           backgroundColor="#ffffff"
           className="value-main-image"
+          style={{ backgroundFit: "cover" }}
         >
           <div className="value-main-image-content">
-            <h1>Let us hand pick your crystal</h1>
+            <h1 style={{ width: "55%" }}>Let us Help You Find Yours</h1>
             <a href="https://www.instagram.com/crystalsbyus/">
               <Button label="Learn More" />
             </a>

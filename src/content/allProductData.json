@@ -4,7 +4,7 @@
   "content": [
     {
       "_id": 1,
-      "image": "../images/opal.jpg",
+      "image": "../images/OpalA.jpg",
       "name": "Opal",
       "price": 16
     },
@@ -29,7 +29,7 @@
     },
     {
       "_id": 5,
-      "image": "../images/Flourite.jpg",
+      "image": "../images/FlouriteA.png",
       "name": "Flurite",
       "price": 16
     }
