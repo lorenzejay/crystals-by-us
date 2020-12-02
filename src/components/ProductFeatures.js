@@ -34,6 +34,7 @@ const ProductFeatures = props => {
       <p>{products.info}</p>
       <div className="core-features">
         {products.content.map(product => {
+          console.log("product", product)
           return (
             <ProductCard
               key={product._id}

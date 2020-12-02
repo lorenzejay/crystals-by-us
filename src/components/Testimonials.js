@@ -20,13 +20,13 @@ const Testimonials = props => {
     }
   `)
   const testimonials = data.allContentJson.nodes[2].testimonials
-  console.log(data)
+
   return (
     <section className="testimonials">
       <h1>Here&apos;s What Our Customers Are Saying</h1>
       <div className="testimonial-group">
         {testimonials.map(item => {
-          console.log(item)
+          console.log("testimonials", item)
           return (
             <TestimonialCard
               key={item._id}
