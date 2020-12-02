@@ -7,6 +7,7 @@ const Testimonials = props => {
     query Testimonials {
       allContentJson {
         nodes {
+          title
           testimonials {
             _id
             author
@@ -18,7 +19,7 @@ const Testimonials = props => {
       }
     }
   `)
-  const testimonials = data.allContentJson.nodes[0].testimonials
+  const testimonials = data.allContentJson.nodes[2].testimonials
   console.log(data)
   return (
     <section className="testimonials">
