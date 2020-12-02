@@ -42,9 +42,9 @@
 
 @include breakpoint("phone-md") {
   .product-features {
-    height: 120vh;
+    height: 140vh;
     .core-features {
-      height: 85%;
+      height: 87%;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
       gap: 15px;
@@ -60,9 +60,9 @@
 }
 @include breakpoint("phone-small") {
   .product-features {
-    height: 140vh;
+    height: 160vh;
     .core-features {
-      height: 75%;
+      height: 85%;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
       gap: 15px;
@@ -72,6 +72,9 @@
           width: 130px;
         }
         .card-text {
+          h4 {
+            font-size: 1.2rem;
+          }
           p {
             font-size: 1rem;
           }

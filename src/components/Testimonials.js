@@ -18,8 +18,8 @@ const Testimonials = props => {
       }
     }
   `)
-  const testimonials = data.allContentJson.nodes[2].testimonials
-
+  const testimonials = data.allContentJson.nodes[0].testimonials
+  console.log(data)
   return (
     <section className="testimonials">
       <h1>Here&apos;s What Our Customers Are Saying</h1>
