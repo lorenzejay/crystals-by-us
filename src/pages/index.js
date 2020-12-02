@@ -10,7 +10,7 @@ import CallToAction from "../components/CallToAction"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" description="Let us help you find your crystal." />
     <ValueProp />
 
     <ProductBenefits />
