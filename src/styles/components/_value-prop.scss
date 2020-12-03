@@ -21,6 +21,10 @@
         font-size: 2.5rem;
         text-shadow: #ffffff 0px 0px 1.3px;
       }
+      h3 {
+        color: white;
+        font-size: 2rem;
+      }
       p {
         color: #ffffff;
         font-size: 1.3rem;
@@ -36,6 +40,11 @@
     .value-main-image {
       background-image: #ffffff;
       background-image: url("../images/heroImage.jpg");
+    }
+    .value-main-image-content {
+      h3 {
+        font-size: 1.8rem;
+      }
     }
   }
 }
