@@ -35,7 +35,9 @@ const Header = ({ siteTitle }) => {
           </div>
           <ul className={navClasses}>
             <li className={navItemClasses}>
-              <a href="#products">Products</a>
+              <a href="#products" onClick={toggle}>
+                Products
+              </a>
             </li>
             <li className={navItemClasses}>
               <a href="https://www.instagram.com/crystalsbyus/">Instagram</a>

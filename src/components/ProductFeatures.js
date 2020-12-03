@@ -16,7 +16,7 @@ const ProductFeatures = props => {
                 price
                 image {
                   childImageSharp {
-                    fluid {
+                    fluid(maxWidth: 400, maxHeight: 400, quality: 100) {
                       src
                     }
                   }
