@@ -26,7 +26,10 @@ const Header = ({ siteTitle }) => {
           <div>
             <h4>
               <Link className="logo" to="/">
-                {siteTitle}
+                <div>
+                  <h3>{siteTitle}</h3>
+                  <p>Based in San Fernando Valley</p>
+                </div>
               </Link>
             </h4>
           </div>
