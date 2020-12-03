@@ -36,28 +36,6 @@ const ProductBenefits = props => {
     }
   `)
 
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allContentJson {
-  //       nodes {
-  //         heading
-  //         crystals {
-  //           _id
-  //           name
-  //           description
-  //           image {
-  //             childImageSharp {
-  //               fluid {
-  //                 src
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
   const crystalInfo = data.allContentJson.edges[0].node.clientCrystalDescription
   // console.log("crystalifno", crystalInfo)
   return (
