@@ -6,8 +6,8 @@ const Footer = ({ siteTitle }) => {
       <div className="footer-belt">
         <div className="company-sign">&copy; 2020 {siteTitle}</div>
         <div className="social-media">
-          <a href="https://www.instagram.com/crystalsbyus/">
-            <div className="social-instagram">Instagram</div>
+          <a className="footer-email" href="mailto:Crystalsbyus@gmail.com">
+            Crystalsbyus@gmail.com
           </a>
         </div>
       </div>

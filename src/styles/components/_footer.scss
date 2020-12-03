@@ -10,6 +10,9 @@
   padding: 0 1em;
   max-width: $maxContainerWidth;
   margin: 0 auto;
+  a {
+    color: white;
+  }
 }
 
 .company-sign {
@@ -22,7 +25,15 @@
 .social-media {
   display: flex;
   justify-content: space-around;
-  min-width: 6rem;
+  align-items: center;
+  width: 30%;
+}
+.footer-email {
+  font-size: 1rem;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // .social-facebook {
@@ -47,31 +58,15 @@
   background: url("../assets/social-media/social-instagram.svg") no-repeat
     center;
   background-size: 100% 100%;
-  height: 1.5rem;
+  height: 1.2rem;
   width: 1.5rem;
   font-size: 0;
-  margin: 0 0.25em;
+  margin: auto 0.25em;
 }
 
 @include breakpoint("from-phone-md") {
   .social-media {
     min-width: 10rem;
-  }
-
-  .social-facebook {
-    background-size: 100% 100%;
-    height: 2rem;
-    width: 2rem;
-    font-size: 0;
-    margin: 0 0.75em;
-  }
-
-  .social-twitter {
-    background-size: 100% 100%;
-    height: 2rem;
-    width: 2rem;
-    font-size: 0;
-    margin: 0 0.75em;
   }
 
   .social-instagram {
@@ -83,8 +78,21 @@
   }
 }
 
-@include breakpoint("phone-small") {
-  .company-sign {
-    font-size: 0.8rem;
+// @include breakpoint("phone-small") {
+//   .company-sign {
+//     font-size: 0.7rem;
+//   }
+// }
+
+@include breakpoint("phone") {
+  footer {
+    height: 12vh;
+    padding: 5% 0;
+    width: 100%;
+    .footer-belt {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
