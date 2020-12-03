@@ -19,59 +19,27 @@
   }
 }
 
-@include breakpoint("from-tablet-p") {
-  .testimonial-group {
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: space-around;
-  }
-  .testimonial-card-1,
-  .testimonial-card-2,
-  .testimonial-card-3 {
-    max-width: 14rem;
-    height: 40rem;
-  }
-}
-
-@include breakpoint("from-tablet-l") {
-  .testimonial-card-1,
-  .testimonial-card-2,
-  .testimonial-card-3 {
-    max-width: 16rem;
-    height: 35rem;
-  }
-}
-
-@include breakpoint("phone") {
-  .testimonials {
-    min-height: 140vh;
-    .testimonial-group {
-      flex-direction: column;
-      align-items: center;
-      gap: 5vh;
-      .testimonial-cards {
-        margin: 15px 0;
-        width: 300px;
-        min-height: 20vh;
-      }
-    }
-  }
-}
 @include breakpoint("phone-small") {
   .testimonials {
     h1 {
       font-size: 1.5rem;
     }
-    height: 200vh;
+
     .testimonial-group {
       flex-direction: column;
       align-items: center;
-      gap: 5vh;
+      gap: 1vh;
+
       .testimonial-cards {
         margin: 15px 0;
         width: 250px;
-        min-height: 17vh;
+        min-height: 25vh;
+        h3 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.85rem;
+        }
       }
     }
   }
@@ -85,10 +53,41 @@
     .testimonial-group {
       flex-direction: column;
       align-items: center;
-      gap: 5vh;
+
       .testimonial-cards {
         margin: 15px 0;
         width: 300px;
+        min-height: 20vh;
+      }
+    }
+  }
+}
+
+@include breakpoint("phone") {
+  .testimonials {
+    padding: 5% 0 0;
+    height: 150vh;
+    .testimonial-group {
+      flex-direction: column;
+      align-items: center;
+      gap: 3vh;
+      .testimonial-cards {
+        margin: 15px 0;
+        width: 300px;
+        min-height: 25vh;
+      }
+    }
+  }
+}
+
+@include breakpoint("tablet") {
+  .testimonials {
+    padding: 5% 0 0;
+    height: 65vh;
+    .testimonial-group {
+      .testimonial-cards {
+        padding: 1%;
+        width: 450px;
         min-height: 20vh;
       }
     }

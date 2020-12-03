@@ -21,7 +21,7 @@ const Testimonials = props => {
 
   return (
     <section className="testimonials">
-      <h1>Here&apos;s What Our Customers Are Saying</h1>
+      <h1>Here's What Our Customers Are Saying</h1>
       <div className="testimonial-group">
         {testimonials &&
           testimonials.map(item => {

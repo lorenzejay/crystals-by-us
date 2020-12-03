@@ -4,7 +4,7 @@ Gratefully taken from this amazing repo: https://github.com/ovidiumihaibelciug/g
 -----------------------*/
 @mixin breakpoint($value, $min-value: false) {
   @if $value == "phone-small" {
-    @media only screen and (max-width: 330px) {
+    @media only screen and (max-width: 340px) {
       @content;
     }
   }
