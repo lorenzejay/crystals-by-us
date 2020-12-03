@@ -25,7 +25,7 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[0]
+  const products = data.allContentJson.nodes[1]
   console.log(data)
 
   return (
