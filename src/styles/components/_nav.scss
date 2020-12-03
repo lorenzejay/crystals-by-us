@@ -3,15 +3,6 @@
   position: fixed;
   width: 100%;
   min-height: 10vh;
-
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // background: none;
-  // background-color: $navColor;
-  // -webkit-box-shadow: 0 8px 6px -6px #999;
-  // -moz-box-shadow: 0 8px 6px -6px #999;
-  // box-shadow: 0 8px 6px -6px #999;
 }
 
 .nav-belt {
@@ -67,22 +58,6 @@
   }
 }
 
-.nav-item-bold {
-  border: solid;
-  border-color: $mainColor;
-  border-radius: 2rem;
-  padding: 0.25em 0.75em;
-  a {
-    color: $mainColor;
-  }
-  &:hover {
-    background-color: $mainColor;
-    a {
-      color: $backgroundColor;
-    }
-  }
-}
-
 .burger {
   display: none;
 }
@@ -123,13 +98,6 @@
     left: 0;
     right: 0;
   }
-  // .burger {
-  //   .burger-line-1,
-  //   .burger-line-2,
-  //   .burger-line-3 {
-  //     background-color: #333333;
-  //   }
-  // }
 
   .backdrop-active {
     z-index: 100;
