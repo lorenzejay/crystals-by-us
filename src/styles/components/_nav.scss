@@ -202,13 +202,6 @@
   );
 }
 
-.nav-content-scrolled-color {
-  a,
-  h3,
-  p {
-    color: $mainColor;
-  }
-  .burger div {
-    background-color: $mainColor;
-  }
+.nav-content-display-none {
+  display: none;
 }

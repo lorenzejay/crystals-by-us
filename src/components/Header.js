@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => {
       <nav className="navbar transparent navbar-inverse">
         <div
           className={`nav-belt ${
-            scroll === 0 ? "nav-content-pop" : "nav-content-scrolled-color "
+            scroll === 0 ? "nav-content-pop" : "nav-content-display-none "
           }`}
         >
           <div>
