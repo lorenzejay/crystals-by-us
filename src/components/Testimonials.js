@@ -17,7 +17,7 @@ const Testimonials = props => {
       }
     }
   `)
-  const testimonials = data.allContentJson.nodes[2].testimonials
+  const testimonials = data.allContentJson.nodes[0].testimonials
 
   return (
     <section className="testimonials">
