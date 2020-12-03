@@ -4,20 +4,27 @@ import TestimonialCard from "./TestimonialCard"
 
 const Testimonials = props => {
   const data = useStaticQuery(graphql`
-    query Testimonials {
-      allContentJson {
-        nodes {
-          testimonials {
-            _id
-            author
-            review
-            color
+    query {
+      allContentJson(filter: { clientTestimonials: { _id: { eq: 2 } } }) {
+        edges {
+          node {
+            clientTestimonials {
+              title
+              testimonials {
+                _id
+                author
+                color
+                review
+              }
+            }
           }
         }
       }
     }
   `)
-  const testimonials = data.allContentJson.nodes[2].testimonials
+  const testimonials =
+    data.allContentJson.edges[0].node.clientTestimonials.testimonials
+  console.log(testimonials)
 
   return (
     <section className="testimonials">

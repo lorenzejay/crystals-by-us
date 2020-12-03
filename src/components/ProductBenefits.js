@@ -12,17 +12,21 @@ const ProductBenefits = props => {
 
   const data = useStaticQuery(graphql`
     query {
-      allContentJson {
-        nodes {
-          heading
-          crystals {
-            _id
-            name
-            description
-            image {
-              childImageSharp {
-                fluid {
-                  src
+      allContentJson(filter: { clientCrystalDescription: { _id: { eq: 1 } } }) {
+        edges {
+          node {
+            clientCrystalDescription {
+              heading
+              crystals {
+                _id
+                description
+                name
+                image {
+                  childImageSharp {
+                    fluid {
+                      src
+                    }
+                  }
                 }
               }
             }
@@ -32,8 +36,30 @@ const ProductBenefits = props => {
     }
   `)
 
-  const crystalInfo = data.allContentJson.nodes[1]
-  console.log("crystalifno", crystalInfo)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     allContentJson {
+  //       nodes {
+  //         heading
+  //         crystals {
+  //           _id
+  //           name
+  //           description
+  //           image {
+  //             childImageSharp {
+  //               fluid {
+  //                 src
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+
+  const crystalInfo = data.allContentJson.edges[0].node.clientCrystalDescription
+  // console.log("crystalifno", crystalInfo)
   return (
     <section className="product-benefits">
       <div className="product-benefits-content">

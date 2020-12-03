@@ -1,0 +1,136 @@
+{
+  "clientCrystalDescription": {
+    "_id": 1,
+    "heading": "Crystal Healing Properties",
+    "crystals": [
+      {
+        "_id": 1,
+        "image": "../images/flouriteStone.jpg",
+        "name": "Flourite",
+        "description": "<p>The stone for creating a path to your future, draws out negative energies and stress while stimulating memory and learning skills.</p>"
+      },
+      {
+        "_id": 2,
+        "image": "../images/CitrineStone.jpg",
+        "name": "Citrine",
+        "description": "<p>The stone for finding your power to attract prosperity and unlock your soul, the happy stone that brights up any energy to light up aspects in your.</p>"
+      },
+      {
+        "_id": 3,
+        "image": "../images/AmethystStone.jpg",
+        "name": "Amethyst",
+        "description": " <p>The stone for natural stress relief and cleansing negative energy , brings peace, stability, courage, and strength, helps balance mood swings while encouraging honesty and self control.</p>"
+      },
+      {
+        "_id": 4,
+        "image": "../images/RoseQuartzStone.jpg",
+        "name": "Rose Quartz",
+        "description": "<p>Rose quartz - the stone for universal love, such as self love, family, platonic, romantic, and unconditional, promotes peace and confidence, heals the heart from any emotional stress.</p>"
+      },
+      {
+        "_id": 5,
+        "image": "../images/LabradoriteStone.jpg",
+        "name": "Labradorite",
+        "description": "<p>The stone of transformation helps you overcome fears and insecurities to bring excitement and adventure while being protected from negative energy.</p>"
+      },
+      {
+        "_id": 6,
+        "image": "../images/ClearQuartzStone.jpg",
+        "name": "Clear Quartz",
+        "description": "<p>The stone of healing, the best energy amplifier and healer, it improves quality in life by making you feel happier and reenergized while bringing your body back into balance.</p>"
+      },
+      {
+        "_id": 7,
+        "image": "../images/OpalStone.jpg",
+        "name": "Opal",
+        "description": "<p>The stone of inspiration, enhances creativity and imagination, brings hope and inner peace, enhances memory while decreasing confusion.</p>"
+      },
+      {
+        "_id": 8,
+        "image": "../images/ObsidianStone.jpg",
+        "name": "Obsidian",
+        "description": "<p>Obsidian the stone of protection, releases resentment, fear, and anger, absorbs negative energies while cutting cords that stop us from moving on, brings clarity.</p>"
+      },
+      {
+        "_id": 9,
+        "image": "../images/SmokeyQuartz.jpg",
+        "name": "Smokey Quartz",
+        "description": "<p>The stone of endurance, detoxifies your aura while relieving tension, stress, and anxiety, also wards off negative energy.</p>"
+      },
+      {
+        "_id": 10,
+        "image": "../images/OceanJasperStone.jpg",
+        "name": "Ocean Jasper",
+        "description": "<p>The uplifting stone, brings joy and happiness, helps you relieve negative energies or feelings to make you more optimistic and confident.</p>"
+      },
+      {
+        "_id": 11,
+        "image": "../images/7chakrasStone.jpg",
+        "name": "7 Chakras",
+        "description": "<ol><li>Root Chakra - Red Jasper - stability</li> <li>Sacral Chakra - Red Carnelian - absorption</li> <li>Solar Plexus Chakra - Yellow Aventurine - prosperity</li> <li>Heart Chakra - Green Aventurine - comfort</li> <li>Throat Chakra - Lapis Lazuli - strength</li> <li>Third Eye Chakra - Blue Aventurine - intuition</li> <li>Crown Chakra – Amethyst - reliever</li></ol>"
+      }
+    ]
+  },
+  "clientTestimonials": {
+    "_id": 2,
+    "title": "Client Testimonials",
+    "testimonials": [
+      {
+        "_id": 1,
+        "author": "@beyaangobung",
+        "review": "100% top quality crystals. I love how they interact with their followers and make sure that they get the best experience when picking out their crystals.",
+        "color": "#F7CAC9"
+      },
+      {
+        "_id": 2,
+        "author": "@badgyaldesi",
+        "review": "Connie & Jacob have the best quality crystals!! They have affordable pricing by including bundles or gift sets. They also include shipping and have awesome customer service.",
+        "color": "#C4F2BE"
+      },
+      {
+        "_id": 3,
+        "author": "@anniebanannie_16",
+        "review": "Beautiful crystals at an absolutely affordable price. Plus great customer service. Love love love crystalsbyus. ❤️",
+        "color": ""
+      }
+    ]
+  },
+  "clientProductData": {
+    "_id": 3,
+    "title": "Our Products",
+    "info": "You can choose from either a gold or silver chain.",
+    "content": [
+      {
+        "_id": 1,
+        "image": "../images/OpalA.jpg",
+        "name": "Opal",
+        "price": 16
+      },
+      {
+        "_id": 2,
+        "image": "../images/Amethyst.jpg",
+        "name": "Amethyst",
+        "price": 16
+      },
+      {
+        "_id": 3,
+        "image": "../images/RoseQuartz.jpg",
+        "name": "Rose Quartz",
+        "price": 16
+      },
+
+      {
+        "_id": 4,
+        "image": "../images/Obsidian.jpg",
+        "name": "Obsidian",
+        "price": 16
+      },
+      {
+        "_id": 5,
+        "image": "../images/FlouriteA.png",
+        "name": "Flurite",
+        "price": 16
+      }
+    ]
+  }
+}

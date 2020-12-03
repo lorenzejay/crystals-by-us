@@ -5,18 +5,21 @@ import ProductCard from "./ProductCard"
 const ProductFeatures = props => {
   const data = useStaticQuery(graphql`
     query MyQuery {
-      allContentJson {
-        nodes {
-          title
-          info
-          content {
-            _id
-            name
-            price
-            image {
-              childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 400, quality: 100) {
-                  src
+      allContentJson(filter: { clientProductData: { _id: { eq: 3 } } }) {
+        edges {
+          node {
+            clientProductData {
+              title
+              content {
+                _id
+                name
+                price
+                image {
+                  childImageSharp {
+                    fluid {
+                      src
+                    }
+                  }
                 }
               }
             }
@@ -25,8 +28,8 @@ const ProductFeatures = props => {
       }
     }
   `)
-  const products = data.allContentJson.nodes[0]
-  console.log(data)
+  const products = data.allContentJson.edges[0].node.clientProductData
+  console.log(data.allContentJson.edges[0].node.clientProductData)
 
   return (
     <div className="product-features" id="products">
